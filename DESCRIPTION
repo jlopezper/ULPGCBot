@@ -1,0 +1,15 @@
+Package: ULPGCBot
+Type: Package
+Title: Twitter Bot for ULPGC news
+Version: 0.0.1
+Authors@R: person("Jorge", "López Pérez", email = "jorge.loper@gmail.com",
+                  role = c("aut", "cre"))
+Description: 
+License: MIT
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.0.1
+Imports: dplyr,
+    rvest,
+    xml2
+Suggests: testthat
