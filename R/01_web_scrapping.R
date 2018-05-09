@@ -13,10 +13,18 @@
 
 ulpgc_scrap <- function(url = "https://www.ulpgc.es/noticias") {
 
-  current <-  xml2::read_html(url) %>%
+  tryCatch({
+    stopifnot(url == "https://www.ulpgc.es/noticias")
+
+    current <-  xml2::read_html(url) %>%
     rvest::html_nodes(".views-row-even .field-content") %>%
     rvest::html_text() %>%
     dplyr::nth(2)
 
-  current
+    current
+  },
+
+  error = function(e) "Not a valid web"
+  )
 }
+
