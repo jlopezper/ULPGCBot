@@ -5,3 +5,4 @@ tests/
 packrat/src/
 .httr-oauth
 .DS_Store
+.Rhistory
