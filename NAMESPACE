@@ -3,3 +3,4 @@
 export(tweet_posting)
 export(twitter_connection)
 export(ulpgc_scrap)
+importFrom(magrittr,"%>%")

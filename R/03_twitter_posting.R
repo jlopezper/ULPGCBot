@@ -7,10 +7,10 @@
 #' @export
 
 
-tweet_posting <- function() {
+tweet_posting <- function(url = "https://www.ulpgc.es/noticias") {
 
   connection <- twitter_connection()
-  tweet <- twitteR::tweet(ulpgc_scrap())
+  tweet <- twitteR::tweet(ulpgc_scrap(url))
 
   tweet
 

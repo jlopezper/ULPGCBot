@@ -8,8 +8,9 @@
 #' @examples
 #' ulpgc_scrap()
 #'
+#' @importFrom magrittr "%>%"
+#'
 #' @export
-
 
 ulpgc_scrap <- function(url = "https://www.ulpgc.es/noticias") {
 
@@ -27,5 +28,5 @@ ulpgc_scrap <- function(url = "https://www.ulpgc.es/noticias") {
 
   },
 
-  error = function(e) "Not a valid web. For now only ULPGC news are allowed.")
+  error = function(e) "Not a valid web. For now only ULPGC news are allowed: https://www.ulpgc.es/noticias")
 }

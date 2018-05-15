@@ -5,7 +5,7 @@
 \title{Function for tweeting
 This function allows you to post tweets from R.}
 \usage{
-tweet_posting()
+tweet_posting(url = "https://www.ulpgc.es/noticias")
 }
 \description{
 Function for tweeting
