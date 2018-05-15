@@ -6,7 +6,6 @@
 #'
 #' @export
 
-source("02_twitter_connection.R")
 
 tweet_posting <- function() {
 
