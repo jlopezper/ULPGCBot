@@ -1,4 +1,7 @@
 packrat/lib*/
 .Rproj.user
+.Renviron
 tests/
 packrat/src/
+.httr-oauth
+.DS_Store

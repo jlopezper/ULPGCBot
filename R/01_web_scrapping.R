@@ -24,7 +24,5 @@ ulpgc_scrap <- function(url = "https://www.ulpgc.es/noticias") {
     current
   },
 
-  error = function(e) "Not a valid web"
-  )
+  error = function(e) "Not a valid web. For now only ULPGC news are allowed.")
 }
-
