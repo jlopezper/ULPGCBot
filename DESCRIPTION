@@ -4,8 +4,8 @@ Title: Twitter Bot for ULPGC news
 Version: 0.0.1
 Authors@R: person("Jorge", "López Pérez", email = "jorge.loper@gmail.com",
                   role = c("aut", "cre"))
-Description: 
-License: MIT
+Description: This package posts the latest news from the ULPGC news website.
+License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 6.0.1
